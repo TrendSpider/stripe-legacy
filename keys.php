@@ -1,0 +1,4 @@
+<?php
+
+define('STRIPE_KEY', getenv('STRIPE_KEY'));
+define('STRIPE_WEBHOOK_ENDPOINT_SECRET', getenv('STRIPE_WEBHOOK_ENDPOINT_SECRET'));
