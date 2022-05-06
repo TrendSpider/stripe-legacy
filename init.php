@@ -94,8 +94,3 @@ require(dirname(__FILE__) . '/lib/OAuth.php');
 // Webhooks
 require(dirname(__FILE__) . '/lib/Webhook.php');
 require(dirname(__FILE__) . '/lib/WebhookSignature.php');
-
-
-require(dirname(__FILE__) . '/keys.php');
-
-\Stripe_Legacy\Stripe::setApiKey(STRIPE_KEY);
